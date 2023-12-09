@@ -58,7 +58,7 @@ function makesound(key) {
 
 function buttonAnimation(currentKey) {
   var activeButton = document.querySelector("." + currentKey);
-  activeButton.classList.Add(pressed);
+  activeButton.classList.add(pressed);
   setTimeOut(function() {
     activeButton.classList.remove(pressed); }, 200);
 }
